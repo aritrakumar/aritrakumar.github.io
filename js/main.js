@@ -4,7 +4,7 @@ function loadImage(id, targetId) {
   var imageToLoad;
 
   if (el.dataset.image) {
-    imageToLoad - el.dataset.image;
+    imageToLoad = el.dataset.image;
     // console.log("1st " + imageToLoad);
   } else if (typeof el.currentSrc === undefined) {
     imageToLoad = el.src;
