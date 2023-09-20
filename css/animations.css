@@ -198,7 +198,3 @@ bounceIn for the contact button */
   animation-delay: 1.2s;
 } */
 
-document.addEventListener('DOMContentLoaded', function() {
-  loadImage('wallpaper');
-  loadImage('pictureImage', 'picture');
-  });
