@@ -1,4 +1,5 @@
-function loadImage(id, targetId) {
+function loadImage() {
+  /*
   var el = document.getElementById(id);
   var targetEl = targetId ? document.getElementById(targetId) : el;
   var imageToLoad;
@@ -22,7 +23,7 @@ function loadImage(id, targetId) {
     };
   }
 }
-
+*/
 document.addEventListener("DOMContentLoaded", function () {
   loadImage("wallpaper"); 
   loadImage("pictureImage", "picture");
